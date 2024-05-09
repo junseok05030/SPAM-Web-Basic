@@ -111,8 +111,61 @@ true/false
 ```javascript
 {
     console.log
-(
-"제 이름은 " + name + "이다.)
+("제 이름은 " + name + "이다.)
 }
 ```
 라고 쓰면 "+ name + " 부분에 넣어놓은 변수의 단어가 뜬다.
+
+### javascript
+
+#### if문에는 뒤에 세미콜론을 붙히지 않는다.
+if문은 변수값에 따라 출력하는 값이 바뀐다
+예시
+```javascript
+const age = 5;
+
+
+if (age > 19) console.log('adult');
+else if (age > 13 ) console.log('애새끼');
+else console.log('더 애새끼');
+
+console.log(`너는 ${age}살입니다 `);
+```
+변수값 age가 19 보다 많거나 13보다 많을경우 애새끼 또는 adult가 출력된다.
+
+(복습)
+
+num + 1;
+
+num - 1;
+
+num * 1;
+
+num / 1;
+
+num % 1;
+
+(이건 몰랐음;)
+
+num ** : 제곱
+
+---------
+switch문은 선언한 변수의 값이 알맞은 경우의 수를 출력한다.
+
+예시
+``` javascript
+    const age = 8
+
+switch  (age){
+    default:
+        console.log("볼펜");
+        break;
+    case  5 :
+        console.log("선물");
+        break;
+    case  8:
+        console.log("선물");
+        break;
+    }
+```
+변수값 age가 5일경우에도 선물을 받지만 8 또는 5가 아닐경우 볼펜을 받게된다.
