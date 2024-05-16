@@ -55,3 +55,58 @@ console.log(typeof crazyuglyseok2);
 const groupName = '리준석';
 console.log(groupName + '미친 \못생긴석ㅋㅋ');
 console.log(` ${groupName} 미친\못생긴석ㅋㅋ`);
+
+// Boolean 타입
+
+const isTrue = true;
+const isFalse = false;
+console.log(typeof isTrue);
+console.log(typeof isFalse);
+
+//undefined
+
+let undefineding;
+console.log(undefineding);
+
+//null
+
+let init = null;
+console.log(init);
+console.log(typeof init);
+
+//symbol 타입
+
+const test1 = '1';
+const test2 = '2';
+
+console.log(test1 === test2);
+const symbol1 = Symbol('1');
+const symbol2 = Symbol('1');
+console.log(symbol1 === symbol2);
+
+//object type
+//키; 밸류의 쌍으로 이루어진다 key;value
+const dictionary = {
+    red: '빨간색',
+    yellow: '노란색',
+    orange: '주황색'
+};
+
+console.log(dictionary);
+console.log(dictionary['yellow']);
+
+//Array
+
+const ivemembersArray = [
+    '안유진',
+    '가을',
+    '레이',
+    '장원영',
+    '리즈',
+    '이서'
+];
+console.log(ivemembersArray);
+/* static typing > 변수를 선언할때 어떤 타입의 변수를 선언할지 명시를한다.
+dynamic typing > 변수의 타입을 명시적으로 선언하지 않고 값에의해 타입을 "추론"한다
+JS > dynamic typing*/
+
